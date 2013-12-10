@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" id="jquery"></script>
+<title>13News Now TruckFinder</title>
+<script type="text/javascript">
+$(document).ready(function(){
+	$.ajax({
+		type: "GET",
+		url: "https://api.foursquare.com/v2/venues/search?near=Norfolk+VA&query=food+truck&client_secret=FSL31Q2MS3IIE4FMOYPC4SAXGETHH4ORX2VHJAVWOTSTUDB2&client_id=RHVUICQYNDVODC1DLR5GMM1PMQ43A01IHJ5WOB1TCTVGAIMS&v=20130812",
+		crossDomain: true,
+		dataType: "json",
+		success: getVenues
+	});
+	
+	function getVenues(data){
+		$.each(data.response.venues, function(i, truck){
+			$('body').append('<p>' + truck.name + '</p><p>' + truck.location.lat + ' ' + truck.location.lng + '</p><br />');
+		});
+};
+	
+	});
+
+</script>
+</head>
+
+<body>
+<h1>TruckFinder coming soon</h1>
+<p></p>
+</body>
+</html>
