@@ -13,10 +13,10 @@
 <file name="FoodTruckIcon.png" server="ssh.phx.nearlyfreespeech.net" local="130209935917252716" remote="130209936600000000" />
 <file name="FoodTruckIcon.psd" server="ssh.phx.nearlyfreespeech.net" local="130209935917472729" remote="130209936610000000" />
 <file name="foursquare-for-foodtruck.txt" server="ssh.phx.nearlyfreespeech.net" local="130209935917682741" remote="130209936610000000" />
-<file name="icon-taco-white.png" server="ssh.phx.nearlyfreespeech.net" local="130209935917892753" remote="130209936620000000" />
+<file name="icon-taco-white.png" server="ssh.phx.nearlyfreespeech.net" local="130209972620000000" remote="130209972620000000" />
 <file name="index.html" server="ssh.phx.nearlyfreespeech.net" local="130209935918182769" remote="130209936620000000" />
 <file name="mm_20_green.png" server="ssh.phx.nearlyfreespeech.net" local="130209935918382781" remote="130209936630000000" />
-<file name="refresh-icone-6710-96.png" server="ssh.phx.nearlyfreespeech.net" local="130209935918572792" remote="130209936630000000" />
+<file name="refresh-icone-6710-96.png" server="ssh.phx.nearlyfreespeech.net" local="130209972630000000" remote="130209972630000000" />
 <file name="truck-marker.png" server="ssh.phx.nearlyfreespeech.net" local="130209935919752859" remote="130209936670000000" />
 <file name="truck-marker.psd" server="ssh.phx.nearlyfreespeech.net" local="130209935919982872" remote="130209936670000000" />
 <file name="truckmap-wkey.html" server="ssh.phx.nearlyfreespeech.net" local="130209935919562848" remote="130209936670000000" />
@@ -27,7 +27,7 @@
 <file name="FoodTruckIcon.gif" server="ssh.phx.nearlyfreespeech.net" local="130209086978084866" remote="130209936600000000" />
 <file name="get_tweets_js.js" server="ssh.phx.nearlyfreespeech.net" local="130209935754313397" remote="130209936610000000" />
 <file name="grabtweets.php" server="ssh.phx.nearlyfreespeech.net" local="130209935754523409" remote="130209936620000000" />
-<file name="truckmap_twitter.html" server="ssh.phx.nearlyfreespeech.net" local="130220945540000000" remote="130220945540000000" />
+<file name="truckmap_twitter.html" server="ssh.phx.nearlyfreespeech.net" local="130223541820000000" remote="130223541820000000" />
 <file name="truckmap_twitter2.html" server="ssh.phx.nearlyfreespeech.net" local="130209935755933489" remote="130209936710000000" />
 <file name="twitter-feed.html" server="ssh.phx.nearlyfreespeech.net" local="130209100550921187" remote="130209936720000000" />
 </dwsync>
